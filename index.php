@@ -54,7 +54,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="view view-tenth">
                             <div class="hover-effect"><h2>Dominican Travel Network</h2></div>
-                            <img width="400" height="236" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="turtle-talk-thumb" />
+                            <img width="400" height="236" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="turtle-talk-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
@@ -66,7 +66,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="view view-tenth">
                             <div class="hover-effect"><h2>Dominican Travel Network</h2></div>                            
-                            <img width="400" height="236" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="the-frog-thumb" />
+                            <img width="400" height="236" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="the-frog-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
@@ -78,7 +78,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="hover-effect"><h2>Dominican Travel Network</h2></div>                        
                         <div class="view view-tenth">
-                            <img width="400" height="236" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="shortcomings-thumb" />
+                            <img width="400" height="236" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="shortcomings-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
@@ -90,7 +90,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="hover-effect"><h2>Dominican Travel Network</h2></div>                        
                         <div class="view view-tenth">
-                            <img width="400" height="220" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="a-moose-thumb" />
+                            <img width="400" height="220" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="a-moose-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
@@ -102,7 +102,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="hover-effect"><h2>Dominican Travel Network</h2></div>                        
                         <div class="view view-tenth">
-                            <img width="400" height="236" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="worm-problems-thumb" />
+                            <img width="400" height="236" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="worm-problems-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
@@ -114,7 +114,7 @@
                     <a href="page-video.html"> <!-- link wrap -->
                         <div class="hover-effect"><h2>Dominican Travel Network</h2></div>
                         <div class="view view-tenth">
-                            <img width="400" height="236" src="images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="woman-heels-thumb" />
+                            <img width="400" height="236" src="<?php bloginfo('template_directory'); ?>/images/thumb.jpg" class="attachment-post-thumbnail wp-post-image" alt="woman-heels-thumb" />
                         </div>
                     </a> <!-- link end wrap -->
                 </div>
