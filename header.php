@@ -15,23 +15,18 @@
 <!-- stylsheets -->
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/css/foundation.min.css" />
-<link rel="stylesheet" type="text/css" href="/css/animation.css" />
-<link rel="stylesheet" type="text/css" href="/css/demo.css" />
-<link rel="stylesheet" type="text/css" href="/css/style_common.css" />
-<link rel="stylesheet" type="text/css" href="/css/media.css" />
-<link rel="stylesheet" type="text/css" href="/css/shadowbox.css" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/css/hover.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/hover.css" />
 
 <!-- animated header -->
 
-<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/modernizr.custom.js"></script>    
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/modernizr.custom.js"></script>    
 
 <!-- scripts -->
 
-<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/jquery.videoBG.js"></script>
-<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/<?php bloginfo('stylesheet_url'); ?>/js/jquery-1.5.1.js"></script>
-<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/script.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.videoBG.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/script.js"></script>
 
 <?php wp_head(); ?>
 </head>
@@ -45,11 +40,11 @@ The header
             <div class="cbp-af-header">
                 <div class="cbp-af-inner">
                     <nav>
-                        <a href="page-about.html">About Us</a>
-                        <a href="page-projects.html">Projects</a>
-                        <a href="index.html">Arbiter Productions</a>
-                        <a href="page-clients.html">Clients</a>
-                        <a href="page-contact.html">Contact</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Projects</a>
+                        <a href="#">Arbiter Productions</a>
+                        <a href="#">Clients</a>
+                        <a href="#">Contact</a>
                     </nav>
                 </div>
             </div>
