@@ -15,7 +15,7 @@
 <!-- stylsheets -->
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/css/foundation.min.css" />
 <link rel="stylesheet" type="text/css" href="/css/animation.css" />
 <link rel="stylesheet" type="text/css" href="/css/demo.css" />
 <link rel="stylesheet" type="text/css" href="/css/style_common.css" />
@@ -29,13 +29,6 @@
 
 <!-- scripts -->
 
-<script type="text/javascript" src="/js/shadowbox.js"></script>
-<script type="text/javascript" src="/js/shadowbox-firefox.js"></script>
-<script type="text/javascript" src="/js/modernizr.js"></script>
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/foundation.min.js"></script>
-<script type="text/javascript" src="/js/foundation/foundation.offcanvas.js/index.html"></script>
-<script type="text/javascript" src="/js/foundation/foundation.js/index.html"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/jquery.videoBG.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/<?php bloginfo('stylesheet_url'); ?>/js/jquery-1.5.1.js"></script>
 <script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/script.js"></script>

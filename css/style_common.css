@@ -1,0 +1,82 @@
+.view {
+   width: 100%;
+   height: 100%;
+   float: left;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+   box-shadow: 0 2px 9px -7px;
+}
+
+.view-single {
+   width: 100%;
+   height: 555px;
+   float: left;
+   border: 10px solid #fff;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+}
+
+.view-single-sketch {
+    border: 10px solid #FFFFFF;
+    cursor: default;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.view .mask,.view .content {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+.view img {
+   display: block;
+   position: relative;
+}
+.view h2 {
+   text-transform: uppercase;
+   color: #fff;
+   text-align: center;
+   position: relative;
+   font-size: 17px;
+   padding: 10px;
+   margin: 28px 0 0;
+   font-family: 'Oswald',sans-serif;
+}
+.view p {
+   font-family: 'Oswald',sans-serif;
+   font-size: 12px;
+   font-weight: normal;
+   position: relative;
+   color: #fff;
+   text-align: center;
+}
+.view a.info {
+   display: inline-block;
+   text-decoration: none;
+   padding: 7px 7px;
+   background: rgba(121, 120, 128, .8);
+   color: #fff;
+   -webkit-box-shadow: 0 0 1px #000;
+   -moz-box-shadow: 0 0 1px #000;
+   box-shadow: 0 0 1px #000;
+}
+.view a.info: hover {
+   -webkit-box-shadow: 0 0 5px #000;
+   -moz-box-shadow: 0 0 5px #000;
+   box-shadow: 0 0 5px #000;
+}
+
+.stage-single .medium-12 .mask {
+   padding-top: 140px;
+}

@@ -1,0 +1,73 @@
+@media (max-width: 500px) {
+  .main-nav {
+    display: none;
+  }
+
+  form {
+  	width: 70px;
+  	margin-right: 20px;
+  	float: right;
+  }
+
+  .its-lily {
+    color: #FFFFFF;
+    float: left;
+    font-size: 20px;
+    position: absolute;
+    text-shadow: none;
+    top: 7px;
+    font-family: 'Roboto Slab',serif !important;
+}
+
+.stay-put {
+	top: 100px;
+}
+
+.stage {
+	margin-top: 490px;
+}
+
+.stage-single {
+	margin-top: 250px;
+}
+
+
+.next-song {
+ height: 160px;
+}
+
+.previous-song {
+  height: 160px;
+}
+
+.next {
+    border-left: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    height: 64px;
+    left: 20%;
+    position: relative;
+    top: 34px;
+    transform: rotate(135deg);
+    width: 65px;
+}
+
+.previous {
+    border-left: 3px solid #FFFFFF;
+    border-top: 3px solid #FFFFFF;
+    height: 65px;
+    left: 59%;
+    position: relative;
+    top: 39px;
+    transform: rotate(315deg);
+    width: 65px;
+}
+
+}
+
+@media (min-width: 500px) {
+.its-lily {
+	display: none;
+}
+
+  
+}
