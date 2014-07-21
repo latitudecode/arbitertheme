@@ -14,18 +14,18 @@
 
 <!-- stylsheets -->
 
-<link rel="stylesheet" type="text/css" href="style.css" />
-<link rel="stylesheet" type="text/css" href="foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/foundation.min.css" />
 <link rel="stylesheet" type="text/css" href="/css/animation.css" />
 <link rel="stylesheet" type="text/css" href="/css/demo.css" />
 <link rel="stylesheet" type="text/css" href="/css/style_common.css" />
 <link rel="stylesheet" type="text/css" href="/css/media.css" />
 <link rel="stylesheet" type="text/css" href="/css/shadowbox.css" />
-<link rel="stylesheet" type="text/css" href="css/hover.css" />
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>/css/hover.css" />
 
 <!-- animated header -->
 
-<script type="text/javascript" src="js/modernizr.custom.js"></script>    
+<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/modernizr.custom.js"></script>    
 
 <!-- scripts -->
 
@@ -36,9 +36,9 @@
 <script type="text/javascript" src="/js/foundation.min.js"></script>
 <script type="text/javascript" src="/js/foundation/foundation.offcanvas.js/index.html"></script>
 <script type="text/javascript" src="/js/foundation/foundation.js/index.html"></script>
-<script type="text/javascript" src="js/jquery.videoBG.js"></script>
-<script type="text/javascript" src="js/jquery-1.5.1.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/jquery.videoBG.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/<?php bloginfo('stylesheet_url'); ?>/js/jquery-1.5.1.js"></script>
+<script type="text/javascript" src="<?php bloginfo('stylesheet_url'); ?>/js/script.js"></script>
 
 <?php wp_head(); ?>
 </head>
