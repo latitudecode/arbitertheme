@@ -33,11 +33,25 @@
 
         <div class="medium-4 columns">
             <h4>Credits</h4> 
-            <ul>
-                <li>director: Sean Mattison</li>
-                <li>producer: Sean Mattison</li>
-                <li>actor: Sean Mattison</li>
-                <li>director: Sean Mattison</li>
+            <ul class="post-meta">
+
+		
+			<?php $my_post_meta = get_post_meta($post->ID, 'director', true); ?>
+    			<?php if ( ! empty ( $my_post_meta ) ) { ?> 
+
+    			<?php echo wpautop($my_post_meta); ?>
+    		<?php } ?>  
+    		<?php $my_post_meta = get_post_meta($post->ID, 'producer', true); ?>
+    			<?php if ( ! empty ( $my_post_meta ) ) { ?> 
+
+    			<?php echo wpautop($my_post_meta); ?>
+    		<?php } ?> 
+       		<?php $my_post_meta = get_post_meta($post->ID, 'post_production', true); ?>
+    			<?php if ( ! empty ( $my_post_meta ) ) { ?> 
+
+    			<?php echo wpautop($my_post_meta); ?>
+    		<?php } ?> 
+    		 		 
             </ul>
         </div>
 
