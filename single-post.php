@@ -5,6 +5,8 @@
  <div class="theater"> <!-- start row -->
     <!-- starting the WordPress loop -->               
     <div class="row">
+
+   	
         <div class="medium-12 columns">
             <a href="#"> <!-- link wrap -->
                 <div class="view view-tenth">
@@ -26,7 +28,7 @@
 
         <div class="medium-8 columns">
             <h2><?php the_title(); ?></h2>
-            <p><?php the_content('Read more...'); ?></p>
+            <p><?php the_excerpt(); ?></p>
         </div>
 
         <div class="medium-4 columns">
@@ -42,11 +44,6 @@
     </div>
 </div>
 	
-
-
-
- <!-- end loop -->
-
 <div class="stage-single"> <!-- curtain pull -->
 	<div class="wrap"> <!-- start wrap -->
         <div class="row"> <!-- start row -->            
