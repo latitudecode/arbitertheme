@@ -3,8 +3,8 @@
     <div class="row">
 
                 <div class="medium-4 columns">
-                    <h4><a href="#">info@arbiterproductions</a></h2>
-                    <h4><a href="#">917.443.2211</a></h2>
+                    <h4><a href="mailto:info@arbiterproductions.com">info@arbiterproductions</a></h2>
+                    <h4><a href="">917.443.2211</a></h2>
                 </div>
 
 
