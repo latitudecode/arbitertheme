@@ -9,9 +9,8 @@
 
 
                 <div class="medium-4 columns">
-                    <h4><a href="#">twitter</a></h2>
-                    <h4><a href="#">facebook</a></h2>
-                    <h4><a href="#">instagram</a></h2>
+                    <h4><a href="http://vimeo.com/arbiterfilms">vimeo</a></h2>
+                    <h4><a href="http://instagram.com/seanmattison">instagram</a></h2>
                 </div>
 
                 <div class="medium-4 columns">
